@@ -7,7 +7,7 @@ public class 대소문자변환 {
     private String solution(String n) {
         StringBuilder result = new StringBuilder();
         for (char c : n.toCharArray()) {
-            if (65 < c && 97 > c) {
+            if (65 < c && 90 > c) {
                 result.append(String.valueOf(c).toLowerCase());
             }
             else {
